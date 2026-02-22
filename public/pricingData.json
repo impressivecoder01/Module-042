@@ -1,0 +1,89 @@
+[
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": 19.99,
+      "currency": "USD",
+      "billing": "monthly",
+      "tagline": "Start your fitness journey",
+      "description": "Ideal for beginners who want essential gym access and basic support.",
+      "features": [
+        "Access to gym equipment",
+        "Locker room access",
+        "Open gym hours",
+        "1 fitness assessment",
+        "Mobile app access",
+        "Basic workout plans",
+        "Water fountain access",
+        "Member support"
+      ],
+      "limits": {
+        "guestPassesPerMonth": 0,
+        "trainerSessions": 0,
+        "classBookingsPerWeek": 2
+      },
+      "recommended": false,
+      "badge": null,
+      "buttonText": "Get Started"
+    },
+    {
+      "id": 2,
+      "name": "Standard",
+      "price": 39.99,
+      "currency": "USD",
+      "billing": "monthly",
+      "tagline": "Most popular choice",
+      "description": "Perfect for regular members who want classes and added comfort.",
+      "features": [
+        "All Basic features",
+        "Group fitness classes",
+        "Sauna access",
+        "2 guest passes per month",
+        "Free Wi-Fi",
+        "Progress tracking dashboard",
+        "Body composition analysis",
+        "Access to stretching zone",
+        "Discount on merchandise",
+        "Priority support"
+      ],
+      "limits": {
+        "guestPassesPerMonth": 2,
+        "trainerSessions": 1,
+        "classBookingsPerWeek": 5
+      },
+      "recommended": true,
+      "badge": "Popular",
+      "buttonText": "Choose Plan"
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "price": 69.99,
+      "currency": "USD",
+      "billing": "monthly",
+      "tagline": "Train like a pro",
+      "description": "Best for committed members who want full access and coaching.",
+      "features": [
+        "All Standard features",
+        "24/7 gym access",
+        "Unlimited group classes",
+        "Personal trainer sessions",
+        "Customized nutrition plan",
+        "Priority class booking",
+        "Recovery lounge access",
+        "Massage chair access",
+        "Advanced performance tracking",
+        "Unlimited guest passes",
+        "VIP locker room",
+        "Free fitness workshops"
+      ],
+      "limits": {
+        "guestPassesPerMonth": -1,
+        "trainerSessions": 4,
+        "classBookingsPerWeek": -1
+      },
+      "recommended": false,
+      "badge": "Best Value",
+      "buttonText": "Go Premium"
+    }
+  ]
