@@ -18,7 +18,7 @@ const Navbar = () => {
             <span className='flex gap-1 cursor-pointer' onClick={() => setOpen(!open)}>
                 {open ? <CircleX className='md:hidden' /> : <Menu className='md:hidden'></Menu>}
 
-                <ul className='md:hidden'>
+                <ul className={`md:hidden absolute duration-1000 ${open ? 'top-10' : '-top-74'}`}>
                     {
                         links
                     }
